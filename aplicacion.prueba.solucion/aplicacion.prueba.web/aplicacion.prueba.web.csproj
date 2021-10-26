@@ -5,6 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="folder1.folder2.web.doce\ejemplo.clase.ejemplo2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="folder1.folder2.web.doce\ejemplo.clase.ejemplo2.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
   </ItemGroup>
 
